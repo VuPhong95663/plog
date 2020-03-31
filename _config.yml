@@ -8,7 +8,7 @@ subtitle: ''
 description: ''
 keywords:
 author: Vu Van Phong
-language: en
+language: vi
 timezone: 'Asia/Ho_Chi_Minh'
 
 # URL
@@ -99,3 +99,12 @@ theme: meadow
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ''
+
+sitemap:
+  path: sitemap.xml
+
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
