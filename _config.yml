@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Plog
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: Vu Van Phong
 language: en
-timezone: ''
+timezone: 'Asia/Ho_Chi_Minh'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -93,7 +93,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: meadow
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
