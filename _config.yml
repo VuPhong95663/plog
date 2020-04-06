@@ -108,8 +108,3 @@ search:
   field: post
   content: true
   format: html
-
-admin:
-  username: vuphong95663
-  password_hash: $2a$10$..2JCA.cx6Nds.oc1fjFg.u8Bpk2oGR1PzIQE66jgXLmiWUH6088a
-  secret: tm29kbjmxlg
