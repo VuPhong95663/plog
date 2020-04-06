@@ -1,5 +1,5 @@
 ---
-title: All Tags
+title: Danh sách các nhãn
 date: 2020-02-02 20:00:02
 type: "tags"
 ---

@@ -1,12 +1,11 @@
 ---
 title: Hello World
-tags:
-  - hello
+tags: [a, b]
 categories:
   - a
 abbrlink: 16107
 ---
-{% img [class names] source/_drafts/aimage.png [100] [100] '"title text" "alt text"' %}a
+{% img [class names] source/_drafts/aimage.png [100] [100] '"title text" "alt text"' %}
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in dsadsadasdasdasdadsadsadasdas
 
 ## Quick Start
