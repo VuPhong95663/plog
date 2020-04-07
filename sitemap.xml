@@ -2,44 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2020/03/31/hello-world%20copy/</loc>
+    <loc>http://vuphong95663.github.io/2020/04/06/hello-world%20copy/</loc>
     
-    <lastmod>2020-04-06T09:52:10.925Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2020/04/06/testasset/</loc>
-    
-    <lastmod>2020-04-06T04:05:24.296Z</lastmod>
+    <lastmod>2020-04-06T10:51:52.092Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2020/04/06/testasset-1/</loc>
+    <loc>http://vuphong95663.github.io/tags/index.html</loc>
     
-    <lastmod>2020-04-06T03:45:46.383Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2020/03/31/hello-world/</loc>
-    
-    <lastmod>2020-04-06T01:50:35.009Z</lastmod>
+    <lastmod>2020-04-06T10:49:05.006Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/categories/index.html</loc>
+    <loc>http://vuphong95663.github.io/categories/index.html</loc>
     
-    <lastmod>2020-03-31T10:35:54.056Z</lastmod>
+    <lastmod>2020-04-06T10:49:05.004Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/tags/index.html</loc>
+    <loc>http://vuphong95663.github.io/2020/04/06/testasset/</loc>
     
-    <lastmod>2020-03-31T10:34:50.600Z</lastmod>
+    <lastmod>2020-04-06T10:49:04.996Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://vuphong95663.github.io/2020/04/06/testasset-1/</loc>
+    
+    <lastmod>2020-04-06T10:49:04.996Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://vuphong95663.github.io/2020/04/06/hello-world/</loc>
+    
+    <lastmod>2020-04-06T10:49:04.995Z</lastmod>
     
   </url>
   
