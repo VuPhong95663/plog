@@ -3,6 +3,12 @@
 body {
   background: #d4dcd6;
 }
+section#comments {
+  border-color: #fff;
+  border: 1px 1px 1px 1px;
+  border-style: solid;
+  background: #dde !important;
+}
 .mdui-card {
   background: #fff;
 }
