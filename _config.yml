@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Plog
-subtitle: ''
+title: Code cùng tôi
+subtitle: 'Chia sẻ kiến thức lập trình'
 description: 'Mình là Phong, một developer. Blog này là nơi chia sẻ những kiến thức, những gì mình đã và đang tìm hiểu. '
 keywords:
 author: Vu Van Phong
@@ -99,7 +99,7 @@ theme: meadow
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/VuPhong95663/vuphong95663.github.io.git
+  repo: https://github.com/VuPhong95663/vuphong95663.github.io
   branch: master
 
 sitemap:
@@ -110,11 +110,3 @@ search:
   field: post
   content: true
   format: html
-
-fbcomments:
-  appId: 852124195304978 # <---- TODO
-  colorscheme: dark # (optional) light/dark
-  enabled: true # (optional) true/false
-  lang: vi # (optional)
-  order_by: time  # (optional) time/reverse_time/social
-  numPosts: 10 # (optional) defaults to 5
