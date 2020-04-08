@@ -20,9 +20,9 @@
     
     
     
-<link rel="stylesheet" href="/css/mdui.min.css">
-<link rel="stylesheet" href="/css/main.css">
-<link rel="stylesheet" href="/css/iconfont.css">
+<link rel="stylesheet" href="/plog/css/mdui.min.css">
+<link rel="stylesheet" href="/plog/css/main.css">
+<link rel="stylesheet" href="/plog/css/iconfont.css">
 
     
     
@@ -75,8 +75,8 @@
   <header class="mdui-appbar mdui-appbar-fixed">
   <div id="toolbar" class="mdui-toolbar mdui-color-theme">
     <button class="mdui-btn mdui-btn-icon" mdui-drawer="{target: '#sidebar', swipe: true}"><i class="iconfont icon-menu"></i></button>
-    <a href="/" class="mdui-typo-headline">Plog</a>
-    <a href="/" class="header-subtitle mdui-typo-headline"></a>
+    <a href="/plog/" class="mdui-typo-headline">Plog</a>
+    <a href="/plog/" class="header-subtitle mdui-typo-headline"></a>
     <div class="mdui-toolbar-spacer"></div>
     <button class="mdui-btn mdui-btn-icon" mdui-dialog="{target: '#search'}" mdui-tooltip="{content: 'search'}"><i class="iconfont icon-search"></i></button>
   </div>
@@ -87,7 +87,7 @@
     <div class="search-form">
       <input type="search" class="search-form-input" placeholder="Tìm kiếm" onfocus="listenSearchFunc()">
     </div>
-    <div class="search-result" data-resource="/search.xml"></div>
+    <div class="search-result" data-resource="/plog/search.xml"></div>
   
 </div>
 
@@ -102,7 +102,7 @@
         <div class="mdui-list">
             
                 
-                <a href="/" class="mdui-list-item mdui-ripple">
+                <a href="/plog/" class="mdui-list-item mdui-ripple">
                     <div class="mdui-list-item-icon">
                         <i class="iconfont icon-home"></i>
                     </div>
@@ -110,7 +110,7 @@
                 </a>
             
                 
-                <a href="/tags/" class="mdui-list-item mdui-ripple">
+                <a href="/plog/tags/" class="mdui-list-item mdui-ripple">
                     <div class="mdui-list-item-icon">
                         <i class="iconfont icon-bookmark"></i>
                     </div>
@@ -118,7 +118,7 @@
                 </a>
             
                 
-                <a href="/categories/" class="mdui-list-item mdui-ripple">
+                <a href="/plog/categories/" class="mdui-list-item mdui-ripple">
                     <div class="mdui-list-item-icon">
                         <i class="iconfont icon-folder"></i>
                     </div>
@@ -126,7 +126,7 @@
                 </a>
             
                 
-                <a href="/archives/" class="mdui-list-item mdui-ripple">
+                <a href="/plog/archives/" class="mdui-list-item mdui-ripple">
                     <div class="mdui-list-item-icon">
                         <i class="iconfont icon-archive"></i>
                     </div>
@@ -207,7 +207,7 @@
     
     
       <div class="post-header"> 
-  <a class="post-header-title" href="/2020/04/08/tao-blog-don-gian-voi-hexo/">Tao blog đơn giản với Hexo</a>
+  <a class="post-header-title" href="/plog/2020/04/08/tao-blog-don-gian-voi-hexo/">Tao blog đơn giản với Hexo</a>
   <div class="post-header-meta">
     <span>
       <span class="iconfont icon-calendar"></span>
@@ -219,7 +219,7 @@
     </span>
     <span>
       <span class="iconfont icon-folder"></span>
-      Trong:&nbsp;<a class="category-link" href="/categories/Khac/">Khác</a>
+      Trong:&nbsp;<a class="category-link" href="/plog/categories/Khac/">Khác</a>
     </span>
     
   </div>
@@ -235,7 +235,7 @@
       <button class="mdui-btn mdui-btn-icon mdui-text-color-teal" mdui-menu="{target: '#share_menu', align: 'right'}"><i class="iconfont icon-share"></i></button>
       <ul class="mdui-menu" id="share_menu">
         <!-- <li class="mdui-menu-item">
-          <a href="http://service.weibo.com/share/share.php?appkey=&title=Tao blog đơn giản với Hexo&url=http://vuphong95663.github.io/plog/2020/04/08/tao-blog-don-gian-voi-hexo/&pic=http://vuphong95663.github.io/plog/null&searchPic=false&style=simple" target="_blank" class="mdui-ripple">Weibo</a>
+          <a href="http://service.weibo.com/share/share.php?appkey=&title=Tao blog đơn giản với Hexo&url=http://vuphong95663.github.io/plog/2020/04/08/tao-blog-don-gian-voi-hexo/&pic=http://vuphong95663.github.io/plog/plog/null&searchPic=false&style=simple" target="_blank" class="mdui-ripple">Weibo</a>
         </li> -->
         <li class="mdui-menu-item">
           <a href="https://twitter.com/intent/tweet?text=Tao blog đơn giản với Hexo&url=http://vuphong95663.github.io/plog/2020/04/08/tao-blog-don-gian-voi-hexo/&via=Vu Van Phong" target="_blank" class="mdui-ripple">Twitter</a>
@@ -250,7 +250,7 @@
           <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://vuphong95663.github.io/plog/2020/04/08/tao-blog-don-gian-voi-hexo/&title=Tao blog đơn giản với Hexo" target="_blank" class="mdui-ripple">LinkedIn</a>
         </li>
         <!-- <li class="mdui-menu-item">
-          <a href="http://connect.qq.com/widget/shareqq/index.html?site=Plog&title=Tao blog đơn giản với Hexo&summary=Mình là Phong, một developer. Blog này là nơi chia sẻ những kiến thức, những gì mình đã và đang tìm hiểu. &pics=http://vuphong95663.github.io/plog/null&url=http://vuphong95663.github.io/plog/2020/04/08/tao-blog-don-gian-voi-hexo/" target="_blank" class="mdui-ripple">QQ</a>
+          <a href="http://connect.qq.com/widget/shareqq/index.html?site=Plog&title=Tao blog đơn giản với Hexo&summary=Mình là Phong, một developer. Blog này là nơi chia sẻ những kiến thức, những gì mình đã và đang tìm hiểu. &pics=http://vuphong95663.github.io/plog/plog/null&url=http://vuphong95663.github.io/plog/2020/04/08/tao-blog-don-gian-voi-hexo/" target="_blank" class="mdui-ripple">QQ</a>
         </li> -->
         <li class="mdui-menu-item">
           <a href="https://telegram.me/share/url?url=http://vuphong95663.github.io/plog/2020/04/08/tao-blog-don-gian-voi-hexo/&text=Tao blog đơn giản với Hexo" target="_blank" class="mdui-ripple">Telegram</a>
@@ -267,11 +267,11 @@
   <div class="post-tags">
     
       <i class="iconfont icon-tag">
-        <a rel="tag" href = /tags/NodeJS/ >NodeJS</a>
+        <a rel="tag" href = /plog/tags/NodeJS/ >NodeJS</a>
       </i>
     
       <i class="iconfont icon-tag">
-        <a rel="tag" href = /tags/Hexo/ >Hexo</a>
+        <a rel="tag" href = /plog/tags/Hexo/ >Hexo</a>
       </i>
     
   </div>
@@ -302,7 +302,7 @@
     <button class="mdui-fab mdui-ripple mdui-color-teal" mdui-menu="{target: '#toc'}"><i class="iconfont icon-list"></i></button>
     <ul class="mdui-menu" id="toc">
       <li class="mdui-menu-item">
-        <a href="/2020/04/08/tao-blog-don-gian-voi-hexo/" id="toc-header" class="mdui-ripple">Nội dung</a>
+        <a href="/plog/2020/04/08/tao-blog-don-gian-voi-hexo/" id="toc-header" class="mdui-ripple">Nội dung</a>
         
       </li>
     </ul>
@@ -339,7 +339,7 @@
  -->
 <div id="comment" class="mdui-card mdui-p-a-2 mdui-m-b-5">
   <div id="comment-tab0" class="mdui-p-a-2">
-    <div class="fb-comments" data-href="/2020/04/08/tao-blog-don-gian-voi-hexo/" data-width="100%" data-numposts="10" colorscheme="dark"></div>
+    <div class="fb-comments" data-href="/plog/2020/04/08/tao-blog-don-gian-voi-hexo/" data-width="100%" data-numposts="10" colorscheme="dark"></div>
   </div>
 </div>
 
@@ -392,8 +392,8 @@
 
 
 
-<script src="/js/mdui.min.js"></script>
-<script src="/js/meadow.js"></script>
+<script src="/plog/js/mdui.min.js"></script>
+<script src="/plog/js/meadow.js"></script>
 
 </body>
 </html >
