@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>tao-blog-don-gian-voi-hexo</title>
+    <title>Tao blog đơn giản với Hexo</title>
     <url>/2020/04/08/tao-blog-don-gian-voi-hexo/</url>
     <content><![CDATA[]]></content>
+      <categories>
+        <category>Khác</category>
+      </categories>
+      <tags>
+        <tag>NodeJS</tag>
+        <tag>Hexo</tag>
+      </tags>
   </entry>
 </search>
