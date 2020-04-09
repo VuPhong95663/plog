@@ -19,6 +19,7 @@ Tiêu chí  của mình khi tạo blog là sự nhanh chóng, đơn giản nhưn
 
 Giới thiệu 1 chút về các công cụ mình sử dụng:
 
+<<<<<<< HEAD
 ##### Hexo
 Hexo là một blog framework, Hexo giúp chúng ta tạo một blog bằng cách generate static files một cách nhanh chóng, gọn nhẹ từ những bài viết được viết bằng MarkDown. Một điểm mạnh của Hexo là nó hỗ trợ  deploy trong 1 dòng lệnh. Lý do mình lựa chọn Hexo bởi vì sự đơn giản, tiện lợi của nó cũng như nó cung cấp đầy đủ những chức năng mà mình cần ở một blog.
 
@@ -30,6 +31,19 @@ Domain bạn có thể thuê ở các trang web cho thuê domian như [GoDaddy](
 
 #### Triển khai
 ##### Mã nguồn
+=======
+#### Hexo
+Hexo là một blog framework, Hexo giúp chúng ta tạo một blog bằng cách generate static files một cách nhanh chóng, gọn nhẹ từ những bài viết được viết bằng MarkDown. Một điểm mạnh của Hexo là nó hỗ trợ  deploy trong 1 dòng lệnh. Lý do mình lựa chọn Hexo bởi vì sự đơn giản, tiện lợi của nó cũng như nó cung cấp đầy đủ những chức năng mà mình cần ở một blog.
+
+#### Github Pages
+Github và dịch vụ Github Pages chắc đã không còn quá xa lạ với anh em Dev. Nếu như Github là một một dịch vụ lưu trữ mà nguồn mà người người, nhà nhà sử dụng thì Github Pages là một `web hosting service` được cung cấp bởi GitHub giúp ta lưu trữ các website của dự án, website cá nhân trên chính Github. Một ưu điểm lớn của Github Pages là nó free với các public repo (nếu bạn sử dụng với private repo thì tốn khoảng 7$/tháng => Khá là chát :v) tuy nhiên như vậy đã là quá đủ để mình sử dụng cho blog cá nhân của bản thân mình (đơn giản vì mình public mà ;))
+
+#### Domain
+Domain bạn có thể thuê ở các trang web cho thuê domian như [GoDaddy](https://vn.godaddy.com/), [NameSilo](https://www.namesilo.com/), ... hoặc bạn có thể kiếm domain free tại [Freenom](https://freenom.com/). Còn nếu không thì bạn có thể sử dụng luôn domain mặc định `.github.io` mà Github Pages cung cấp.
+
+### Triển khai
+#### Mã nguồn
+>>>>>>> Blog la de voi Hexo va Github Pages
 Đầu tiên chúng ta cài đặt `hexo-cli` thông qua lệnh
 ```bash
 $ npm install hexo-cli -g
@@ -63,7 +77,11 @@ Thư mục `themes` là nơi thiết lập themes cho blog. Hexo cung cấp 1 kh
 
 Cơ bản nó khá đơn giản nên mình không đi sâu vào việc phải làm từng bước ra sao, các bạn có thể tham khảo những nội dung chính mình đã đề cập phía trên, ngoài ra các bạn có thể tìm hiểu thêm các phần khác trong documentation của [Hexo](https://hexo.io/docs/themes).
 
+<<<<<<< HEAD
 ##### Deploy
+=======
+#### Deploy
+>>>>>>> Blog la de voi Hexo va Github Pages
 Các bạn tạo một repository trên github có tên `<user_name>.github.io`. Nếu đã có repo sẵn các bạn hãy đổi tên như trên trong Repo > Setting.
 
 <center>
@@ -119,7 +137,11 @@ $ hexo deploy
 
 Như vậy là các bạn đã có 1 trang blog được public thông qua domain của Github Pages. Nhưng nếu các bạn muốn custom bằng domain đã có sẵn của mình thì sao?
 
+<<<<<<< HEAD
 ##### Custom domain
+=======
+#### Custom domain
+>>>>>>> Blog la de voi Hexo va Github Pages
 Để custom domain tất nhiên trước hết các bạn phải có domain rồi. Đăng ký ở đây thì mình đã đề cập phía trên. Việc cần làm là các bạn vào trang đã đăng ký domain và config A record trỏ tới địa chỉ IP được cung cấp bới [Github](https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site):
 ```
 185.199.108.153
@@ -144,5 +166,9 @@ Khoan đã chưa hết đâu :v. Có một vấn đề là khi bạn nhập doma
 
 **Thêm:** Để mở rộng chức năng của blog các bạn có thể sử dụng thêm các plugin tại  [Hexo Plugin](https://hexo.io/plugins/) hoặc tự viết thêm, custom blog của mình.
 
+<<<<<<< HEAD
 #### Kết
+=======
+### Kết
+>>>>>>> Blog la de voi Hexo va Github Pages
 Trong bài viết này mình đã chia sẻ cách mình tạo blog cá nhân của bản thân mình chỉ trong vài nốt nhạc. Hy vọng bài viết sẽ có ích với các bạn. Trong thời gian tới mình sẽ tiếp tục cho ra những bài viết trên Blog này hy vọng nhận được sự quan tâm của các bạn.
