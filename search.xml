@@ -1,6 +1,157 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Blog là dễ với Hexo và Github Pages</title>
+    <url>/2020/04/21/blog-la-de-voi-hexo-va-github-pages/</url>
+    <content><![CDATA[<h4 id="Mo-dau"><a href="#Mo-dau" class="headerlink" title="Mở đầu"></a>Mở đầu</h4><p>Dạo gần đây trong thời kì tránh <code>Cô Vy</code> được làm remote ở nhà. Ngoài giờ làm việc mình có kha khá thời gian do không chả phải đi đâu chỉ ru rú ở nhà cả ngày :v. Rảnh rỗi sinh nông nổi, mình tự dưng có hứng thú với việc viết blog nên quyết định tự tạo cho mình một blog cá nhân để có thể chia sẻ những kiến thức cũng như những thứ thuộc về bản thân mình.</p>
+<p>Tiêu chí  của mình khi tạo blog là sự nhanh chóng, đơn giản nhưng vẫn có thể đáp ứng được nhu cầu cơ bản của bản thân nên mình quyết định sử dụng Hexo và Github Pages cho việc triển khai blog của mình. Hôm nay mình xin chia sẻ cách mình đã xây dựng 1 blog cá nhân chỉ trong vài nốt nhạc rất phù hợp với anh em Dev tụi mình với chi phí phải chăng hoặc thậm chí là free từ A-Z. :)</p>
+<p>Để có một trang blog chúng ta cần chuẩn bị:</p>
+<ul>
+<li>Mã nguồn (mình sử dụng Hexo)</li>
+<li>Repo github để chạy Github Page.</li>
+<li>Một domain (nếu muốn nó xịn xò hơn)</li>
+</ul>
+<p>Giới thiệu 1 chút về các công cụ mình sử dụng:</p>
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</p>
+<h5 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h5><p>Hexo là một blog framework, Hexo giúp chúng ta tạo một blog bằng cách generate static files một cách nhanh chóng, gọn nhẹ từ những bài viết được viết bằng MarkDown. Một điểm mạnh của Hexo là nó hỗ trợ  deploy trong 1 dòng lệnh. Lý do mình lựa chọn Hexo bởi vì sự đơn giản, tiện lợi của nó cũng như nó cung cấp đầy đủ những chức năng mà mình cần ở một blog.</p>
+<h5 id="Github-Pages"><a href="#Github-Pages" class="headerlink" title="Github Pages"></a>Github Pages</h5><p>Github và dịch vụ Github Pages chắc đã không còn quá xa lạ với anh em Dev. Nếu như Github là một một dịch vụ lưu trữ mà nguồn mà người người, nhà nhà sử dụng thì Github Pages là một <code>web hosting service</code> được cung cấp bởi GitHub giúp ta lưu trữ các website của dự án, website cá nhân trên chính Github. Một ưu điểm lớn của Github Pages là nó free với các public repo (nếu bạn sử dụng với private repo thì tốn khoảng 7$/tháng =&gt; Khá là chát :v) tuy nhiên như vậy đã là quá đủ để mình sử dụng cho blog cá nhân của bản thân mình (đơn giản vì mình public mà ;))</p>
+<h5 id="Domain"><a href="#Domain" class="headerlink" title="Domain"></a>Domain</h5><p>Domain bạn có thể thuê ở các trang web cho thuê domian như <a href="https://vn.godaddy.com/" target="_blank" rel="noopener">GoDaddy</a>, <a href="https://www.namesilo.com/" target="_blank" rel="noopener">NameSilo</a>, … hoặc bạn có thể kiếm domain free tại <a href="https://freenom.com/" target="_blank" rel="noopener">Freenom</a>. Còn nếu không thì bạn có thể sử dụng luôn domain mặc định <code>.github.io</code> mà Github Pages cung cấp.</p>
+<h4 id="Trien-khai"><a href="#Trien-khai" class="headerlink" title="Triển khai"></a>Triển khai</h4><h5 id="Ma-nguon"><a href="#Ma-nguon" class="headerlink" title="Mã nguồn"></a>Mã nguồn</h5><p>=======</p>
+<h4 id="Hexo-1"><a href="#Hexo-1" class="headerlink" title="Hexo"></a>Hexo</h4><p>Hexo là một blog framework, Hexo giúp chúng ta tạo một blog bằng cách generate static files một cách nhanh chóng, gọn nhẹ từ những bài viết được viết bằng MarkDown. Một điểm mạnh của Hexo là nó hỗ trợ  deploy trong 1 dòng lệnh. Lý do mình lựa chọn Hexo bởi vì sự đơn giản, tiện lợi của nó cũng như nó cung cấp đầy đủ những chức năng mà mình cần ở một blog.</p>
+<h4 id="Github-Pages-1"><a href="#Github-Pages-1" class="headerlink" title="Github Pages"></a>Github Pages</h4><p>Github và dịch vụ Github Pages chắc đã không còn quá xa lạ với anh em Dev. Nếu như Github là một một dịch vụ lưu trữ mà nguồn mà người người, nhà nhà sử dụng thì Github Pages là một <code>web hosting service</code> được cung cấp bởi GitHub giúp ta lưu trữ các website của dự án, website cá nhân trên chính Github. Một ưu điểm lớn của Github Pages là nó free với các public repo (nếu bạn sử dụng với private repo thì tốn khoảng 7$/tháng =&gt; Khá là chát :v) tuy nhiên như vậy đã là quá đủ để mình sử dụng cho blog cá nhân của bản thân mình (đơn giản vì mình public mà ;))</p>
+<h4 id="Domain-1"><a href="#Domain-1" class="headerlink" title="Domain"></a>Domain</h4><p>Domain bạn có thể thuê ở các trang web cho thuê domian như <a href="https://vn.godaddy.com/" target="_blank" rel="noopener">GoDaddy</a>, <a href="https://www.namesilo.com/" target="_blank" rel="noopener">NameSilo</a>, … hoặc bạn có thể kiếm domain free tại <a href="https://freenom.com/" target="_blank" rel="noopener">Freenom</a>. Còn nếu không thì bạn có thể sử dụng luôn domain mặc định <code>.github.io</code> mà Github Pages cung cấp.</p>
+<h3 id="Trien-khai-1"><a href="#Trien-khai-1" class="headerlink" title="Triển khai"></a>Triển khai</h3><h4 id="Ma-nguon-1"><a href="#Ma-nguon-1" class="headerlink" title="Mã nguồn"></a>Mã nguồn</h4><blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>Blog la de voi Hexo va Github Pages<br>Đầu tiên chúng ta cài đặt <code>hexo-cli</code> thông qua lệnh</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+
+<p>Tiếp theo thực hiện khởi tạo  và kéo các dependencies cần thiết về:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo init &lt;folder&gt;</span><br><span class="line">$ <span class="built_in">cd</span> &lt;folder&gt;</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
+
+<p>Hexo sẽ tự động tạo ra cho chúng ta cấu trúc thư mục dạng:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">.</span><br><span class="line">├── _config.yml</span><br><span class="line">├── package.json</span><br><span class="line">├── scaffolds</span><br><span class="line">├── source</span><br><span class="line">|   ├── _drafts</span><br><span class="line">|   └── _posts</span><br><span class="line">└── themes</span><br></pre></td></tr></table></figure>
+
+<p>Trong đó file <code>_config.yml</code> là nơi chúng ta định nghĩa các setup cài đặt cho blog của chúng ta. Các bạn có thể tham khảo tại <a href="https://hexo.io/docs/configuration" target="_blank" rel="noopener">đây</a>.</p>
+<p>Thư mục <code>source</code> là nơi lưu trữ các bài viết của chúng ta, để viết bài các bạn có thể tham khảo tại <a href="https://hexo.io/docs/writing" target="_blank" rel="noopener">đây</a>.</p>
+<p>Thư mục <code>themes</code> là nơi thiết lập themes cho blog. Hexo cung cấp 1 kho themes tương đối đa dạng cho bạn lựa chọn tại <a href="https://hexo.io/themes/" target="_blank" rel="noopener">đây</a>. Ngoài ra bạn hoàn toàn có thể tự viết themes cho cá nhân mình (Chi tiết tham khảo tại <a href="https://hexo.io/docs/themes" target="_blank" rel="noopener">đây</a>).</p>
+<p>Cơ bản nó khá đơn giản nên mình không đi sâu vào việc phải làm từng bước ra sao, các bạn có thể tham khảo những nội dung chính mình đã đề cập phía trên, ngoài ra các bạn có thể tìm hiểu thêm các phần khác trong documentation của <a href="https://hexo.io/docs/themes" target="_blank" rel="noopener">Hexo</a>.</p>
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</p>
+<h5 id="Deploy"><a href="#Deploy" class="headerlink" title="Deploy"></a>Deploy</h5><p>=======</p>
+<h4 id="Deploy-1"><a href="#Deploy-1" class="headerlink" title="Deploy"></a>Deploy</h4><blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>Blog la de voi Hexo va Github Pages<br>Các bạn tạo một repository trên github có tên <code>&lt;user_name&gt;.github.io</code>. Nếu đã có repo sẵn các bạn hãy đổi tên như trên trong Repo &gt; Setting.</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<center>
+<img src="/2020/04/21/blog-la-de-voi-hexo-va-github-pages/2.png" class="">
+</center>
+
+<p>Khi đó Github Pages mặc định sẽ public website của bạn tại domain <code>&lt;user_name&gt;.github.io</code> và thực hiện đọc file <code>index.html</code> từ nhánh <code>master</code>.</p>
+<center>
+<img src="/2020/04/21/blog-la-de-voi-hexo-va-github-pages/3.png" class="">
+</center>
+
+
+<p>Nếu các bạn không đặt tên như trên, trang web của bạn sẽ được public tại domain <code>&lt;user_name&gt;.github.io/&lt;repo_name&gt;</code>.</p>
+<p>Trong source code bạn config file <code>_config.yml</code> như sau:</p>
+<center>
+<img src="/2020/04/21/blog-la-de-voi-hexo-va-github-pages/1.png" class="">
+</center>
+
+<p>Nếu bạn để tên repository khác thì sẽ web của bạn sẽ được public tại subdirectory =&gt; Các bạn config theo phần comment ở trong hình.</p>
+<p>Để deploy đơn giản nhất các bạn hãy cài plugin <code>hexo-deployer-git</code> bằng lệnh:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<p>Trong <code>_config.yml</code> thêm config sau:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: &lt;repository url&gt; # https:&#x2F;&#x2F;github.com&#x2F;vuphong95663&#x2F;vuphong95663.github.io</span><br><span class="line">  branch: [branch]</span><br><span class="line">  message: [message]</span><br></pre></td></tr></table></figure>
+
+<p>Như vậy mỗi khi các bạn viết bài viết mới các bạn chỉ cần chạy lệnh:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>Hexo sẽ tự dịch code của bạn, generate ra các static files và đẩy lên nhánh master của bạn. Để tránh hiện tượng bị cache nội dung các bạn nên chạy 3 lệnh sau thay vì chỉ 1 lệnh khi deploy. Các bạn có thể viết script trong <code>package.json</code> để sử dụng tiện lợi hơn:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo generate</span><br><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>Như vậy là các bạn đã có 1 trang blog được public thông qua domain của Github Pages. Nhưng nếu các bạn muốn custom bằng domain đã có sẵn của mình thì sao?</p>
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</p>
+<h5 id="Custom-domain"><a href="#Custom-domain" class="headerlink" title="Custom domain"></a>Custom domain</h5><p>=======</p>
+<h4 id="Custom-domain-1"><a href="#Custom-domain-1" class="headerlink" title="Custom domain"></a>Custom domain</h4><blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>Blog la de voi Hexo va Github Pages<br>Để custom domain tất nhiên trước hết các bạn phải có domain rồi. Đăng ký ở đây thì mình đã đề cập phía trên. Việc cần làm là các bạn vào trang đã đăng ký domain và config A record trỏ tới địa chỉ IP được cung cấp bới <a href="https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site" target="_blank" rel="noopener">Github</a>:</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">185.199.108.153</span><br><span class="line">185.199.109.153</span><br><span class="line">185.199.110.153</span><br><span class="line">185.199.111.153</span><br></pre></td></tr></table></figure>
+
+<p>Ở đây mình sử dụng GoDaddy nên mình config như sau:</p>
+<center>
+<img src="/2020/04/21/blog-la-de-voi-hexo-va-github-pages/4.png" class="">
+</center>
+
+<p>Tiếp theo các bạn trở lại trang Repo &gt; Settings, kéo xuống Github Pages và nhập domain của bạn vào ô <code>Custom domain</code> rồi sau đó save lại và tận hưởng thành quả :).</p>
+<center>
+<img src="/2020/04/21/blog-la-de-voi-hexo-va-github-pages/5.png" class="">
+</center>
+
+<p>Khoan đã chưa hết đâu :v. Có một vấn đề là khi bạn nhập domain vào ô <code>custom domain</code> trong Settings, Github sẽ tự động tạo ra một file <code>CNAME</code> trong thư mục <code>root</code> của nhánh <code>master</code>. Với cách deploy của mình ở trên khi bạn thực hiện deploy nó sẽ ghi đè và làm mất file CNAME của bạn =&gt; Bạn cần tạo file <code>CNAME</code> mặc định từ khi generate. Để làm được điều đó các bạn hãy tạo file <code>CNAME</code> trong thư mục <code>source</code> của Hexo và điền domain của bạn vào. Như vậy khi thực hiện generate file <code>CNAME</code> cũng sẽ được generate theo. Giờ thì tận hưởng thành quả và chăm chỉ viết bài thôi ;).</p>
+<p><strong>Thêm:</strong> Để mở rộng chức năng của blog các bạn có thể sử dụng thêm các plugin tại  <a href="https://hexo.io/plugins/" target="_blank" rel="noopener">Hexo Plugin</a> hoặc tự viết thêm, custom blog của mình.</p>
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</p>
+<h4 id="Ket"><a href="#Ket" class="headerlink" title="Kết"></a>Kết</h4><p>=======</p>
+<h3 id="Ket-1"><a href="#Ket-1" class="headerlink" title="Kết"></a>Kết</h3><blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>Blog la de voi Hexo va Github Pages<br>Trong bài viết này mình đã chia sẻ cách mình tạo blog cá nhân của bản thân mình chỉ trong vài nốt nhạc. Hy vọng bài viết sẽ có ích với các bạn. Trong thời gian tới mình sẽ tiếp tục cho ra những bài viết trên Blog này hy vọng nhận được sự quan tâm của các bạn.</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Tools</category>
+      </categories>
+      <tags>
+        <tag>Nodejs</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Cải thiện chất lượng commit trong dự án React</title>
     <url>/2020/04/07/cai-thien-chat-luong-commit-trong-du-an-react/</url>
     <content><![CDATA[<p>Một dự án phần mềm thường được phát triển bởi một team thay vì một cá nhân, việc thống nhất coding conventions giữa các thành viên là một việc quan trọng nhằm tăng chất lượng code và giúp code thống nhất theo một chuẩn giúp thuận tiện trong việc đọc cũng như cải tiến thay đổi trong tương lai. Chắc hẳn là lập trình viên thường rất khó chịu khi phải đọc code do người khác viết mà không theo một quy chuẩn thống nhất nào :). Chính vì lý do đó mỗi ngôn ngữ lập trình thường có những bộ linter giúp kiểm tra, thiết lập coding conventions. Lập trình viên thường sử dụng những bộ công cụ linter này để kiểm tra cũng như tuân thủ theo coding conventions đã được đề ra. Tuy nhiên làm sao có thể đảm bảo lập trình viên đã kiểm tra lại code của mình một cách kĩ càng trước khi đoạn code đó được tích hợp, liệu có khả năng xảy ra việc quên hay nhầm lẫn? Có một phương pháp giúp giải quyết vấn đề này đó là sử dụng <code>pre-commit check</code>. Trong bài viết này chúng ta cùng tìm hiểu về <code>pre-commit check</code> và cách thiết lập nó trong một dự án React.</p>
@@ -32,90 +183,6 @@
       </categories>
       <tags>
         <tag>React</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Blog là dễ với Hexo và Github Pages</title>
-    <url>/2020/04/21/blog-la-de-voi-hexo-va-github-pages/</url>
-    <content><![CDATA[<h4 id="Mo-dau"><a href="#Mo-dau" class="headerlink" title="Mở đầu"></a>Mở đầu</h4><p>Dạo gần đây trong thời kì tránh <code>Cô Vy</code> được làm remote ở nhà. Ngoài giờ làm việc mình có kha khá thời gian do không chả phải đi đâu chỉ ru rú ở nhà cả ngày :v. Rảnh rỗi sinh nông nổi, mình tự dưng có hứng thú với việc viết blog nên quyết định tự tạo cho mình một blog cá nhân để có thể chia sẻ những kiến thức cũng như những thứ thuộc về bản thân mình.</p>
-<p>Tiêu chí  của mình khi tạo blog là sự nhanh chóng, đơn giản nhưng vẫn có thể đáp ứng được nhu cầu cơ bản của bản thân nên mình quyết định sử dụng Hexo và Github Pages cho việc triển khai blog của mình. Hôm nay mình xin chia sẻ cách mình đã xây dựng 1 blog cá nhân chỉ trong vài nốt nhạc rất phù hợp với anh em Dev tụi mình với chi phí phải chăng hoặc thậm chí là free từ A-Z. :)</p>
-<p>Để có một trang blog chúng ta cần chuẩn bị:</p>
-<ul>
-<li>Mã nguồn (mình sử dụng Hexo)</li>
-<li>Repo github để chạy Github Page.</li>
-<li>Một domain (nếu muốn nó xịn xò hơn)</li>
-</ul>
-<p>Giới thiệu 1 chút về các công cụ mình sử dụng:</p>
-<h5 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h5><p>Hexo là một blog framework, Hexo giúp chúng ta tạo một blog bằng cách generate static files một cách nhanh chóng, gọn nhẹ từ những bài viết được viết bằng MarkDown. Một điểm mạnh của Hexo là nó hỗ trợ  deploy trong 1 dòng lệnh. Lý do mình lựa chọn Hexo bởi vì sự đơn giản, tiện lợi của nó cũng như nó cung cấp đầy đủ những chức năng mà mình cần ở một blog.</p>
-<h5 id="Github-Pages"><a href="#Github-Pages" class="headerlink" title="Github Pages"></a>Github Pages</h5><p>Github và dịch vụ Github Pages chắc đã không còn quá xa lạ với anh em Dev. Nếu như Github là một một dịch vụ lưu trữ mà nguồn mà người người, nhà nhà sử dụng thì Github Pages là một <code>web hosting service</code> được cung cấp bởi GitHub giúp ta lưu trữ các website của dự án, website cá nhân trên chính Github. Một ưu điểm lớn của Github Pages là nó free với các public repo (nếu bạn sử dụng với private repo thì tốn khoảng 7$/tháng =&gt; Khá là chát :v) tuy nhiên như vậy đã là quá đủ để mình sử dụng cho blog cá nhân của bản thân mình (đơn giản vì mình public mà ;))</p>
-<h5 id="Domain"><a href="#Domain" class="headerlink" title="Domain"></a>Domain</h5><p>Domain bạn có thể thuê ở các trang web cho thuê domian như <a href="https://vn.godaddy.com/" target="_blank" rel="noopener">GoDaddy</a>, <a href="https://www.namesilo.com/" target="_blank" rel="noopener">NameSilo</a>, … hoặc bạn có thể kiếm domain free tại <a href="https://freenom.com/" target="_blank" rel="noopener">Freenom</a>. Còn nếu không thì bạn có thể sử dụng luôn domain mặc định <code>.github.io</code> mà Github Pages cung cấp.</p>
-<h4 id="Trien-khai"><a href="#Trien-khai" class="headerlink" title="Triển khai"></a>Triển khai</h4><h5 id="Ma-nguon"><a href="#Ma-nguon" class="headerlink" title="Mã nguồn"></a>Mã nguồn</h5><p>Đầu tiên chúng ta cài đặt <code>hexo-cli</code> thông qua lệnh</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
-
-<p>Tiếp theo thực hiện khởi tạo  và kéo các dependencies cần thiết về:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo init &lt;folder&gt;</span><br><span class="line">$ <span class="built_in">cd</span> &lt;folder&gt;</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
-
-<p>Hexo sẽ tự động tạo ra cho chúng ta cấu trúc thư mục dạng:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">.</span><br><span class="line">├── _config.yml</span><br><span class="line">├── package.json</span><br><span class="line">├── scaffolds</span><br><span class="line">├── source</span><br><span class="line">|   ├── _drafts</span><br><span class="line">|   └── _posts</span><br><span class="line">└── themes</span><br></pre></td></tr></table></figure>
-
-<p>Trong đó file <code>_config.yml</code> là nơi chúng ta định nghĩa các setup cài đặt cho blog của chúng ta. Các bạn có thể tham khảo tại <a href="https://hexo.io/docs/configuration" target="_blank" rel="noopener">đây</a>.</p>
-<p>Thư mục <code>source</code> là nơi lưu trữ các bài viết của chúng ta, để viết bài các bạn có thể tham khảo tại <a href="https://hexo.io/docs/writing" target="_blank" rel="noopener">đây</a>.</p>
-<p>Thư mục <code>themes</code> là nơi thiết lập themes cho blog. Hexo cung cấp 1 kho themes tương đối đa dạng cho bạn lựa chọn tại <a href="https://hexo.io/themes/" target="_blank" rel="noopener">đây</a>. Ngoài ra bạn hoàn toàn có thể tự viết themes cho cá nhân mình (Chi tiết tham khảo tại <a href="https://hexo.io/docs/themes" target="_blank" rel="noopener">đây</a>).</p>
-<p>Cơ bản nó khá đơn giản nên mình không đi sâu vào việc phải làm từng bước ra sao, các bạn có thể tham khảo những nội dung chính mình đã đề cập phía trên, ngoài ra các bạn có thể tìm hiểu thêm các phần khác trong documentation của <a href="https://hexo.io/docs/themes" target="_blank" rel="noopener">Hexo</a>.</p>
-<h5 id="Deploy"><a href="#Deploy" class="headerlink" title="Deploy"></a>Deploy</h5><p>Các bạn tạo một repository trên github có tên <code>&lt;user_name&gt;.github.io</code>. Nếu đã có repo sẵn các bạn hãy đổi tên như trên trong Repo &gt; Setting.</p>
-<center>
-<img src="/2020/04/21/blog-la-de-voi-hexo-va-github-pages/2.png" class="">
-</center>
-
-<p>Khi đó Github Pages mặc định sẽ public website của bạn tại domain <code>&lt;user_name&gt;.github.io</code> và thực hiện đọc file <code>index.html</code> từ nhánh <code>master</code>.</p>
-<center>
-<img src="/2020/04/21/blog-la-de-voi-hexo-va-github-pages/3.png" class="">
-</center>
-
-
-<p>Nếu các bạn không đặt tên như trên, trang web của bạn sẽ được public tại domain <code>&lt;user_name&gt;.github.io/&lt;repo_name&gt;</code>.</p>
-<p>Trong source code bạn config file <code>_config.yml</code> như sau:</p>
-<center>
-<img src="/2020/04/21/blog-la-de-voi-hexo-va-github-pages/1.png" class="">
-</center>
-
-<p>Nếu bạn để tên repository khác thì sẽ web của bạn sẽ được public tại subdirectory =&gt; Các bạn config theo phần comment ở trong hình.</p>
-<p>Để deploy đơn giản nhất các bạn hãy cài plugin <code>hexo-deployer-git</code> bằng lệnh:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-
-<p>Trong <code>_config.yml</code> thêm config sau:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: &lt;repository url&gt; # https:&#x2F;&#x2F;github.com&#x2F;vuphong95663&#x2F;vuphong95663.github.io</span><br><span class="line">  branch: [branch]</span><br><span class="line">  message: [message]</span><br></pre></td></tr></table></figure>
-
-<p>Như vậy mỗi khi các bạn viết bài viết mới các bạn chỉ cần chạy lệnh:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>Hexo sẽ tự dịch code của bạn, generate ra các static files và đẩy lên nhánh master của bạn. Để tránh hiện tượng bị cache nội dung các bạn nên chạy 3 lệnh sau thay vì chỉ 1 lệnh khi deploy. Các bạn có thể viết script trong <code>package.json</code> để sử dụng tiện lợi hơn:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo generate</span><br><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>Như vậy là các bạn đã có 1 trang blog được public thông qua domain của Github Pages. Nhưng nếu các bạn muốn custom bằng domain đã có sẵn của mình thì sao?</p>
-<h5 id="Custom-domain"><a href="#Custom-domain" class="headerlink" title="Custom domain"></a>Custom domain</h5><p>Để custom domain tất nhiên trước hết các bạn phải có domain rồi. Đăng ký ở đây thì mình đã đề cập phía trên. Việc cần làm là các bạn vào trang đã đăng ký domain và config A record trỏ tới địa chỉ IP được cung cấp bới <a href="https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site" target="_blank" rel="noopener">Github</a>:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">185.199.108.153</span><br><span class="line">185.199.109.153</span><br><span class="line">185.199.110.153</span><br><span class="line">185.199.111.153</span><br></pre></td></tr></table></figure>
-
-<p>Ở đây mình sử dụng GoDaddy nên mình config như sau:</p>
-<center>
-<img src="/2020/04/21/blog-la-de-voi-hexo-va-github-pages/4.png" class="">
-</center>
-
-<p>Tiếp theo các bạn trở lại trang Repo &gt; Settings, kéo xuống Github Pages và nhập domain của bạn vào ô <code>Custom domain</code> rồi sau đó save lại và tận hưởng thành quả :).</p>
-<center>
-<img src="/2020/04/21/blog-la-de-voi-hexo-va-github-pages/5.png" class="">
-</center>
-
-<p>Khoan đã chưa hết đâu :v. Có một vấn đề là khi bạn nhập domain vào ô <code>custom domain</code> trong Settings, Github sẽ tự động tạo ra một file <code>CNAME</code> trong thư mục <code>root</code> của nhánh <code>master</code>. Với cách deploy của mình ở trên khi bạn thực hiện deploy nó sẽ ghi đè và làm mất file CNAME của bạn =&gt; Bạn cần tạo file <code>CNAME</code> mặc định từ khi generate. Để làm được điều đó các bạn hãy tạo file <code>CNAME</code> trong thư mục <code>source</code> của Hexo và điền domain của bạn vào. Như vậy khi thực hiện generate file <code>CNAME</code> cũng sẽ được generate theo. Giờ thì tận hưởng thành quả và chăm chỉ viết bài thôi ;).</p>
-<p><strong>Thêm:</strong> Để mở rộng chức năng của blog các bạn có thể sử dụng thêm các plugin tại  <a href="https://hexo.io/plugins/" target="_blank" rel="noopener">Hexo Plugin</a> hoặc tự viết thêm, custom blog của mình.</p>
-<h4 id="Ket"><a href="#Ket" class="headerlink" title="Kết"></a>Kết</h4><p>Trong bài viết này mình đã chia sẻ cách mình tạo blog cá nhân của bản thân mình chỉ trong vài nốt nhạc. Hy vọng bài viết sẽ có ích với các bạn. Trong thời gian tới mình sẽ tiếp tục cho ra những bài viết trên Blog này hy vọng nhận được sự quan tâm của các bạn.</p>
-]]></content>
-      <categories>
-        <category>Tools</category>
-      </categories>
-      <tags>
-        <tag>Nodejs</tag>
-        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
