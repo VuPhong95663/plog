@@ -1,6 +1,8 @@
 ---
 title: Blog là dễ với Hexo và Github Pages
-tags: ["Nodejs", "Hexo"]
+tags:
+  - Hexo
+  - Nodejs
 categories:
   - Tools
 abbrlink: 64068

@@ -1,8 +1,8 @@
 ---
 title: Tạo Logger trong Nodejs với Winston
 tags:
-  - Nodejs
   - Logger
+  - Nodejs
 categories:
   - Backend
 abbrlink: 4504
