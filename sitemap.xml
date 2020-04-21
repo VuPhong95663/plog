@@ -2,9 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://vuphong95663.github.io/2020/04/08/blog-la-de-voi-hexo-va-github-pages/</loc>
+    <loc>http://vuphong95663.github.io/2020/04/07/tao-logger-voi-winston/</loc>
     
-    <lastmod>2020-04-21T03:39:43.603Z</lastmod>
+    <lastmod>2020-04-21T03:42:59.992Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://vuphong95663.github.io/2020/04/07/tao-hieu-ung-chuyen-page-cho-ung-dung-react/</loc>
+    
+    <lastmod>2020-04-21T03:42:59.989Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://vuphong95663.github.io/2020/04/15/tao-api-document-xin-xo-voi-api-blueprint/</loc>
+    
+    <lastmod>2020-04-21T03:42:59.984Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://vuphong95663.github.io/2020/04/07/generate-code-voi-plop/</loc>
+    
+    <lastmod>2020-04-21T03:42:59.973Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://vuphong95663.github.io/2020/04/21/blog-la-de-voi-hexo-va-github-pages/</loc>
+    
+    <lastmod>2020-04-21T03:42:59.971Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://vuphong95663.github.io/2020/04/07/cai-thien-chat-luong-commit-trong-du-an-react/</loc>
+    
+    <lastmod>2020-04-21T03:42:59.971Z</lastmod>
     
   </url>
   
