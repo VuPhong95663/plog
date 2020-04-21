@@ -66,7 +66,8 @@
     
     
 <meta name="generator" content="Hexo 4.2.0"></head>
-<body class="mdui-drawer-body-left mdui-appbar-with-toolbar mdui-theme-primary-blue-grey mdui-theme-accent-blue">
+<!-- đã xoá mdui-drawer-body-left trong body để ẩn drawer-->
+<body class="mdui-appbar-with-toolbar mdui-theme-primary-blue-grey mdui-theme-accent-blue">
   <div id="fb-root"></div>
   <script async defer crossorigin="anonymous"
     src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v6.0&appId=852124195304978&autoLogAppEvents=1">
@@ -91,7 +92,7 @@
   
 </div>
 
-  <aside id="sidebar" class="mdui-drawer">
+  <aside id="sidebar" class="mdui-drawer mdui-drawer-close">
     <div class="mdui-tab" mdui-tab>
         <a href="#sidebar-tab1" id="sidebartab" class="mdui-ripple mdui-tab-active">Danh mục</a>
         <a href="#sidebar-tab2" id="sidebartab" class="mdui-ripple">Về tôi</a>
@@ -202,13 +203,14 @@
 
   
   <main id="main-contain" class="mdui-container mdui-m-t-5">
+    <div>
     <div class="mdui-card mdui-p-a-2 mdui-m-b-5">
     <div class="post-header"> 
         <a class="post-header-title" href="/tags/index.html">Danh sách các nhãn</a>
     </div>
     
         <div class="page-describe">
-    2 nhãn
+    8 nhãn
 </div>
 <div class="tags-contain">
     
@@ -226,11 +228,54 @@
             <a class="mdui-chip-title" href="/tags/Hexo/">Hexo</a>
         </div>
     
+        <div class="mdui-chip tags-chip">
+            
+                <span class="mdui-chip-icon">2</span>
+            
+            <a class="mdui-chip-title" href="/tags/React/">React</a>
+        </div>
+    
+        <div class="mdui-chip tags-chip">
+            
+                <span class="mdui-chip-icon">1</span>
+            
+            <a class="mdui-chip-title" href="/tags/Javascript/">Javascript</a>
+        </div>
+    
+        <div class="mdui-chip tags-chip">
+            
+                <span class="mdui-chip-icon">1</span>
+            
+            <a class="mdui-chip-title" href="/tags/API/">API</a>
+        </div>
+    
+        <div class="mdui-chip tags-chip">
+            
+                <span class="mdui-chip-icon">1</span>
+            
+            <a class="mdui-chip-title" href="/tags/Animation/">Animation</a>
+        </div>
+    
+        <div class="mdui-chip tags-chip">
+            
+                <span class="mdui-chip-icon">1</span>
+            
+            <a class="mdui-chip-title" href="/tags/Nodejs/">Nodejs</a>
+        </div>
+    
+        <div class="mdui-chip tags-chip">
+            
+                <span class="mdui-chip-icon">1</span>
+            
+            <a class="mdui-chip-title" href="/tags/Logger/">Logger</a>
+        </div>
+    
 </div>
 
     </div>
     
 
+    </div>
   </main>
   <footer id="footer" class="mdui-text-center mdui-m-t-5 mdui-p-b-2 mdui-p-t-4 mdui-color-theme">
   <div class="mdui-container">

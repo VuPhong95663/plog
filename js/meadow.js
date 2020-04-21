@@ -127,7 +127,7 @@ var isListenSearch = false;
 var listenSearchFunc = function () {
   var resource = $$('.search-result').attr('data-resource');
   if (resource) {
-    if (!isListenSearch) { 
+    if (!isListenSearch) {
       isListenSearch = true;
       searchFunc(resource, '.search-form-input', '.search-result');
     }
